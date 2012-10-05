@@ -12,9 +12,9 @@ on init
     mkdir /dev/pipes 0771 shell shell
 
     # for backwards compatibility
-    export PHONE_STORAGE /mnt/emmc
+    export PHONE_STORAGE /mnt/sdcard
     export USBHOST_STORAGE /mnt/usbdisk
-    export EXTERNAL_STORAGE /mnt/sdcard
+    export EXTERNAL_STORAGE /mnt/emmc
     mkdir /mnt/emmc 0000 system system
     mkdir /mnt/usbdisk 0000 system system
     mkdir /mnt/sdcard 0000 system system
